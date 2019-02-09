@@ -29,3 +29,7 @@ namespace ConsoleApp1
         }
     }
 }
+//notes - https://en.wikipedia.org/wiki/Pythagorean_triple#Proof_of_Euclid's_formula this link was a great help. 
+//since the total cannot exceed 1000 then m and n cannot exceed sqrt(1000) or 31. 
+//there's probably a quicker way to do it, but since this implementation uses 31^2 (961) iterations it's already pretty
+//fast, so I'm just going to leave it. 
